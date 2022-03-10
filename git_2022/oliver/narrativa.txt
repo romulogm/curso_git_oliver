@@ -59,10 +59,6 @@ O QUE É GITHUB?
 	-> DOCUMENTAÇÃO DO SOFTWARE
 	-> MANUAL DO USUÁRIO
 
-===========================================================================================
-===========================================================================================
-
---- COMEÇANDO POR UM PROJETO EM ANDAMENTO
 
 ===========================================================================================
 ===========================================================================================
@@ -81,11 +77,6 @@ O QUE É GITHUB?
 		-->	GIT CLONE https://github.com/SEU_USUARIO/curso_git_oliver
 
 // FEITO ISSO VOCÊ TERÁ UM CLONE DO REPOSITÓRIO GIT E PODERÁ FAZER AS SUAS MODIFICAÇÕES.
-
-===========================================================================================
-===========================================================================================
-
---- INICIANDO UM PROJETO DO ZERO
 
 ===========================================================================================
 ===========================================================================================
@@ -161,7 +152,7 @@ O QUE É GITHUB?
 
 --- BRANCH
 
-// BRANCH DO INGLÊS PURO, É RAMO. E É BASICAMENTE O QUE A TRADUÇÃO TRAZ. UM RAMO.
+// BRANCH DO INGLÊS PURO, É RAMO. E É BASICAMENTE O QUE A TRADUZ TRAZ. UM RAMO.
 
 // BRANCH SÃO UTILIZADAS POR VÁRIOS MOTIVOS, DEPENDENDO DO AMBIENTE DE TRABALHO. MAS A IDEIA CENTRAL DA BRANCH É UTILIZAR UMA VERSÃO ESPECIFÍCA DO CÓDIGO PARA SER A 'BASE' DAS RAMIFICAÇÕES. ENTÃO, BRANCH É UMA RAMIFICAÇÃO DO CÓDIGO QUE ESTÁ SENDO CONSTRUÍDO.
 
@@ -178,6 +169,7 @@ O QUE É GITHUB?
 		--> GIT BRANCH <nova_branch>
 		--> GIT CHECKOUT -B <nova_branch>
 
+<<<<<<< HEAD
 // POR HORA, IREMOS NOS FOCAR NO PRIMEIRO COMANDO. O SEGUNDO IREMOS FALAR NA EXPLICAÇÃO DO CHECKOUT.
 
 // O COMANDO BRANCH, ALÉM DE OUTRAS OPÇÕES, TAMBÉM PODE SER UTILIZADO PARA REMOVER UMA BRANCH. TENHA MUITO CUIDADO AO UTILIZAR ESSE COMANDO, ESPECIALMENTE EM AMBIENTE CORPORATIVO. O COMANDO É:
@@ -225,6 +217,9 @@ O QUE É GITHUB?
 	
 // ESSE É OUTRO COMANDO DO GIT BASTANTE INTERESSANTE DE UTILIZAR. O RETORNO QUE ESSE COMANDO TRÁS É A DIFERENÇA ENTRE DOIS COMMITS. PARA UTILIZAR ESSE COMANDO É NECESSÁRIO POSSUIR DOIS CÓDIGOS DE DOIS COMMITS DIFERENTES. PARA ACESSAR ESSES CÓDIGOS UMA MANEIRA É UTILIZAR O GIT LOG.
 		--> GIT DIFF <código commit1> <código commit2>
+=======
+// POR HORA, IREMOS NOS FOCAR NO PRIMEIRO COMANDO. O SEGUNDO IREMOS FALAR NA EXPLICAÇÃO DO CHECKOUT. E AGORA IREMOS FOCAR NO 
+>>>>>>> parent of 1bf48c6 (evolucao)
 
 // O RETORNO IRÁ MOSTRAR AS DIFERENÇAS ENTRE OS COMMITS.
 
